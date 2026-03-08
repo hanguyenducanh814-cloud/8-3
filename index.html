@@ -4,18 +4,24 @@
     <meta charset="UTF-8">
     <title>Gửi tặng em 8/3</title>
     <style>
-    body {
-    margin: 0;
-    padding: 0;
-    background-color: #0b0b0b; /* Nền đen huyền bí như video */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: white;
-    }
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #0b0b0b;
+            overflow: hidden; /* Ngăn cuộn trang lung tung */
+        }
+
+        .flower-main {
+            width: 50%; /* Cho bó hoa to vừa phải trên điện thoại */
+            max-width: 200px;
+            height: auto;
+        }
 
     .container {
     text-align: center;
@@ -107,15 +113,15 @@
     <h1 id="title">Chúc mừng Ngày Quốc tế Phụ nữ 🌷</h1>
     <p id="hint" style="color: #ccc;">(Chạm vào ảnh để có điều bất ngờ)</p>
 
-    <img src="anh1.jpg"
+    <img src="anh5.jpg"
          alt="Bouquet" class="flower-main" id="btnOpen">
 </div>
 
 <div class="modal" id="myModal">
     <span class="close-btn" id="btnClose">&times;</span>
-    <img src="anh3.jpg" id="girlImg">
+    <img src="anh4.jpg" id="girlImg">
     <h2>Chúc Mừng Ngày 8/3 ❤️</h2>
-    <p>Gửi đến người phụ nữ tuyệt vời nhất. Chúc em luôn xinh đẹp và hạnh phúc ❤️! Cho anh 1 cơ hội tìm hiểu em nhé....</p>
+    <p>Gửi đến người phụ nữ tuyệt vời nhất. Chúc em luôn xinh đẹp và hạnh phúc ❤️!</p>
 </div>
 
 <audio id="bgMusic" loop>
